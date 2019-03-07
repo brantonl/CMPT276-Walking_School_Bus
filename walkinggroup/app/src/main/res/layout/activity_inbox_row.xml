@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content" android:orientation="vertical"
+    android:layout_width="fill_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/read"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_gravity="start"
+            android:layout_weight="0"
+            android:adjustViewBounds="false"
+            android:background="@color/colorPrimaryDark"
+            android:contentDescription="Mail unread!"
+            android:cropToPadding="false"
+            android:minWidth="40sp"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_email_closed" />
+
+        <ImageView
+            android:id="@+id/alert"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_gravity="start"
+            android:layout_weight="0"
+            android:adjustViewBounds="false"
+            android:background="@color/colorAccent"
+            android:contentDescription="woops!"
+            android:cropToPadding="false"
+            android:minWidth="40sp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_outline_announcement_24px" />
+
+        <TextView
+            android:id="@+id/fromWhom"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:height="40sp"
+            android:gravity="start"
+            android:text = "asdf"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/msgId"
+            android:visibility="gone"/>
+        <TextView />
+        <TextView
+            android:id="@+id/timeRec"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="20sp"
+            android:gravity="end"
+            android:text="11:30"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:typeface="monospace" />
+    </TableRow>
+
+</TableLayout>

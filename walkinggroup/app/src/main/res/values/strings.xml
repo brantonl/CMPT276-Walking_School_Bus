@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">Walking Group Lava</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--common-->
+    <string name="monitor">Monitor</string>
+    <string name="monitor_by">Monitor By</string>
+    <string name="input_valid_email">Please enter a valid email</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="details">Details</string>
+    <string name="accept">Accept</string>
+    <string name="deny">Deny</string>
+    <string name="server_correct_null_return">Server replied to login request (no content was expected).</string>
+
+    <string name="sign_in_button">Sign In</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="email_label">email:</string>
+    <string name="password_label">password:</string>
+
+    <string name="autologin_message">Automatically logging in...</string>
+    <string name="maps_permissions_not_granted_msg">Location permissions are required for this application\nPlease login again and grant the appropriate permissions</string>
+
+    <string name="create_account_success_msg">Account created! Logging in...</string>
+
+    <!--Input Validation Messages-->
+    <string name="validation_password_not_match">Passwords do not match</string>
+    <string name="validation_password_too_short">Password must be 8 or more characters</string>
+    <string name="validation_invalid_name">Please enter a valid name</string>
+    <string name="validation_invalid_email">Please enter a valid email</string>
+
+    <!--CreateGroup messages-->
+    <string name="CreateGroup_prompt_enter_meeting_place">Please select a meeting place</string>
+    <string name="CreateGroup_prompt_select_destination">Please select a destination</string>
+    <string name="CreateGroup_prompt_description">Please give the group a description</string>
+    <string name="CreateGroup_notify_group_created">New group submitted to parents for approval! Please check status in pending requests.</string>
+    <string name="CreateGroup_notify_error">Error creating group, please try again</string>
+    <string name="GroupManage_invalid_email_try_again">Invalid email address, please try again</string>
+    <string name="GroupManage_empty_group">There is no member in the group</string>
+    <string name="GroupManage_info_only_add_monitored_users">Can only add monitored users or yourself to group</string>
+    <string name="GroupManage_only_leader_can_remove">Only group leader can remove users which they do not monitor</string>
+
+    <!--Group Management-->
+    <string name="create_group_title">Create A New Group</string>
+    <string name="group_name_input_label">Group Name:</string>
+    <string name="default_empty_meeting_place_label">None selected!</string>
+    <string name="create_group_change_meetup_point">Set Meetup Point</string>
+    <string name="create_group_change_destination">Set Destination</string>
+
+    <!--UserManagement Activity-->
+    <string name="UserManagement_monitor">You are Monitoring</string>
+    <string name="UserManagement_monitor_by">%1$s is Monitored By</string>
+    <string name="UserManagement_EmptyList">List is empty.</string>
+    <string name="UserManagement_stringformat">Name: %1$s, Email: %2$s</string>
+    <string name="UserManagement_tag">UserManagement</string>
+
+    <!--AddMonitor Activity-->
+    <string name="add_user_to_monitor_monitored_by">Add To List</string>
+    <string name="AddMonitor_addto">Add to:</string>
+    <string name="AddMonitor_NewInputType">User Email</string>
+    <string name="AddMonitor_add_user_to_monitor_list">Add User To Monitor List</string>
+    <string name="AddMonitor_add_user_to_monitor_by_list">Add User To MonitorBy List</string>
+    <string name="AddMonitor_Invalid_user_email">Email is not registered in the server. Please try again.</string>
+    <string name="AddMonitor_UserAlreadyInList">Target User is already in List. Please try again.</string>
+
+    <!--GroupManagement Activity-->
+    <string name="GroupManagement_Title">Group %1$s - Management Page</string>
+    <string name="GroupManagement_IntentPackageString">GROUPID</string>
+    <string name="GroupManagement_Member_string_format">Name: %1$s</string>
+    <string name="GroupManagement_AddTitle">Add User to %1$s By entering the Email</string>
+    <string name="GroupManagement_RemoveTitle">Remove User from %1$s</string>
+    <string name="GroupManagement_EditHint">Please Input the email address of the user</string>
+    <string name="GroupManagement_InfoAccessDenial">You do not have the right to access further info of the group members</string>
+    <string name="GroupManagement_Access_right">No access right to see the name of the leader</string>
+    <string name="GroupManagement_Message_Btn_Content">Message To Group</string>
+    <string name="GroupManagement_Add_Member">Add Member</string>
+    <string name="GroupManagement_Leader">Leader:\u0020 %1$s</string>
+    <string name="GroupManagement_memberTitle">Member List:</string>
+    <string name="GroupManagement_nullLeader">Leader:Null</string>
+    <string name="GroupManagement_deleteGroup">Since there are no leader and member in the group, the group is deleted</string>
+
+    <!--Maps-->
+    <string name="InfoWindow_already_member">You are a member of this group!"</string>
+    <string name="InfoWindow_not_member">You are not a member of this group!</string>
+
+    <!--Navbar and Menu-->
+    <string name="navbar_group_info_title">Group Info &amp; Management</string>
+    <string name="navbar_monitorby">MonitorBy List</string>
+    <string name="navbar_monitor">Monitor List</string>
+    <string name="logout_label">Logout</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">LavaWalk</string>
+    <string name="nav_header_subtitle">Safety in numbers, peace of mind</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="group_description">Group Description</string>
+    <string name="change_destination">Change Destination</string>
+    <string name="change_meetup_point">Change Meetup Point</string>
+    <string name="new_group">New Group</string>
+    <string name="logout">Logout</string>
+
+    <!-- 276 Server API Key, Team Lava -->
+    <string name="apikey">F369E8E6-244B-4672-B8A8-1E44A372CA496</string>
+
+    <!--MapsActivity-->
+    <string name="MapsActivity_no_location_permission">Location permissions not given!</string>
+    <string name="MapsActivity_no_groups">There are currently no Groups</string>
+    <string name="MapsActivity_member_leave_group">Want to leave %1$s?</string>
+    <string name="MapsActivity_leader_leave_group">You are the leader of %1$s!\n Want to leave?</string>
+    <string name="MapsActivity_join_group">Want to join %1$s?</string>
+    <string name="MapsActivity_transmit_location">Now transmitting your location</string>
+    <string name="MapsActivity_stop_transmit_location">No longer transmitting your location</string>
+    <string name="MapsActivity_arrived_at_destination">You have arrived at your destination!</string>
+    <string name="navbar_account_details">Account Details</string>
+    <string name="MapsActivity_user_marker_text">%1$s\n%2$s</string> <!-- Name and Last Seen -->
+    <string name="MapsActivity_group_marker_text">%1$s</string> <!-- Group Depart/Arrive -->
+    <string name="maps_score_points_notification">You arrived at your destination and score 100 points!</string>
+
+    <!--Messaging-->
+    <string name="panic_default_message">This is an emergency, I need help!</string>
+    <string name="send_confirmation">Message Sent</string>
+
+    <!--InboxActivity-->
+    <string name="email">Inbox</string>
+    <string name="send">Send</string>
+    <string name="From2">From:\t</string>
+    <string name="new_message">New Message</string>
+    <string name="show_parent_dashboard_parent">Parent View</string>
+    <string name="show_parent_dashboard_student">Student View</string>
+    <string name="save_changes">Saved Changes</string>
+
+    <!--Custom Profile-->
+    <string name="title_activity_customize_profile">CustomizeProfileActivity</string>
+    <string name="navbar_customize_profile">Customize Profile</string>
+
+    <string name="emergency">Emergency</string>
+    <string name="compose_message">Compose Message:</string>
+
+    <!--User Info-->
+    <string name="Info_nameLabel">Name:</string>
+    <string name="Info_Name">Name</string>
+    <string name="Info_yearLabel">Birth Year:</string>
+    <string name="Info_year">Birth Year</string>
+    <string name="Info_monthLabel">Birth Month:</string>
+    <string name="Info_emailLabel">Email:</string>
+    <string name="Info_email">Email</string>
+    <string name="Info_home_phoneLabel">Home Phone:</string>
+    <string name="Info_home_phone">Home Phone</string>
+    <string name="Info_cell_phoneLabel">Cell Phone:</string>
+    <string name="Info_cell_phone">Cell Phone</string>
+    <string name="Info_addressLabel">Address:</string>
+    <string name="Info_address">Address</string>
+    <string name="Info_current_ngradeLabel">Current Grade:</string>
+    <string name="Info_current_grade_student">Current Grade (Student)</string>
+    <string name="Info_teacher_s_nnameLabel">Teacher\'s Name:</string>
+    <string name="Info_teacher_s_name_student">Teacher\'s Name (Student)</string>
+    <string name="Info_emergency_ncontactLabel">Emergency Contact:</string>
+    <string name="Info_emergency_contact">Emergency Contact</string>
+
+    <string name="level_0_title">Elder of Solitude</string>
+    <string name="level_1_title">Shaman of the Earth</string>
+    <string name="level_2_title">Pharaoh of Fools</string>
+    <string name="level_3_title">Sensei of Lava Walking</string>
+    <string name="level_4_title">Sage of the Stars</string>
+    <string name="level_5_title">Exarch of Titans</string>
+    <string name="level_6_title">Consul of Chaos</string>
+    <string name="level_7_title">Guardian of the Realm</string>
+    <string name="level_8_title">Grand Master of the Old Kingdom</string>
+    <string name="level_9_title">Warlock of the Arcane</string>
+
+    <!--LeaderBoard Activity-->
+    <string name="leaderBoard_rowstyle">%1$s. %2$s.; total points: %3$s</string>
+    <string name="leader_board">Leader Board</string>
+
+    <!--PermissionActivity-->
+    <string name="Permission_title">Pending Request(s)</string>
+    <string name="Permission_previousBtn_content">Previous requests</string>
+    <string name="Permission_dialogTitle">Do you accept the permission request?</string>
+    <string name="Permission_sidebar_title">Permission Dashboard</string>
+
+    <!--PreviousPermission-->
+    <string name="PreviousPermission_title">Previous Permission Requests</string>
+    <string name="Text_content">Details: %1$s</string>
+    <string name="Text_status_pending">Status: Pending</string>
+    <string name="Text_status_approved">Status: Approved</string>
+    <string name="Text_status_denied">Status: Denied</string>
+    <string name="Text_approveResponsible">Approved By: %1$s</string>
+    <string name="Text_denyResponsible">Denied By: %1$s</string>
+    <string name="Text_pendingResponsible">Pending for: %1$s</string>
+    <string name="Permission_AddSent">Add request is sent to the target user</string>
+    <string name="Permission_RemoveSent">Remove request is sent to the target user</string>
+    <string name="CannotRemoveLeaderError">Leader of a group cannot remove themselves, please see group management page</string>
+    <string name="map_theme">Map Theme:</string>
+    <string name="color_theme">Color Theme:</string>
+    <string name="profile_picture">Profile Picture:</string>
+    <string name="Create_Group_default_namefield">Name:</string>
+    <string name="Create_account_emaildefaulttex">Email:</string>
+    <string name="Create_Account_emaildefaulttext">Password:</string>
+    <string name="Create_Group_emailconfirmdefaulttext">Confirm \nPassword:</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF0000</color>
+
+    <color name="set1P">#3F51B5</color>
+    <color name="set1PD">#303F9F</color>
+    <color name="set1A">#FF0000</color>
+    <color name="set1F">#FFFFFF</color>
+
+    <color name="set2P">#aaaaaa</color>
+    <color name="set2PD">#444444</color>
+    <color name="set2A">#9a0707</color>
+    <color name="set2F">#FFFFFF</color>
+
+    <color name="set3P">#4444FF</color>
+    <color name="set3PD">#CC33CC</color>
+    <color name="set3A">#FFCC00</color>
+    <color name="set3F">#FFFFFF</color>
+
+    <color name="set4P">#ffbaba</color>
+    <color name="set4PD">#ff7b7b</color>
+    <color name="set4A">#FF0000</color>
+    <color name="set4F">#FFFFFF</color>
+
+    <color name="set5P">#77ab59</color>
+    <color name="set5PD">#234d20</color>
+    <color name="set5A">#FF0000</color>
+    <color name="set5F">#FFFFFF</color>
+
+    <color name="set6P">#FFCC00</color>
+    <color name="set6PD">#FF9900</color>
+    <color name="set6A">#00FFFF</color>
+    <color name="set6F">#FFFFFF</color>
+</resources>

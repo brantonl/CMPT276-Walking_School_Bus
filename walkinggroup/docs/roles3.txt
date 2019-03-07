@@ -1,0 +1,4 @@
+Scrum Master: Eric
+Product Owner: Dylan
+Repo Manager: Branton
+Team Member: Cole
